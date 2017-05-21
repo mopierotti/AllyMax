@@ -4,7 +4,7 @@ import monix.execution.atomic._
 import com.typesafe.scalalogging.Logger
 
 import scala.concurrent.{ExecutionContext, Future}
-import org.mpierotti.minimax.QuickFold._
+import org.mpierotti.minimax.AllyMax._
 import org.mpierotti.minimax.models.MoveWrapper
 
 /*

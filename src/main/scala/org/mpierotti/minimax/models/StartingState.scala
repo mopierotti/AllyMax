@@ -1,6 +1,6 @@
 package org.mpierotti.minimax.models
 
-import org.mpierotti.minimax.QuickFold.{RemainingDepth, Score}
+import org.mpierotti.minimax.AllyMax.{RemainingDepth, Score}
 
 case class StartingState[GameState](
     initialGameState: GameState,

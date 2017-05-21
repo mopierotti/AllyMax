@@ -1,6 +1,6 @@
 package org.mpierotti.minimax.models
 
-import org.mpierotti.minimax.QuickFold.Score
+import org.mpierotti.minimax.AllyMax.Score
 
 object KillerMove {
   implicit def ordering[M]: Ordering[KillerMove[M]] =

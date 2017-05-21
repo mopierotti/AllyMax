@@ -1,6 +1,6 @@
 package org.mpierotti.minimax
 
-import org.mpierotti.minimax.QuickFold.{RemainingDepth, safeNegate}
+import org.mpierotti.minimax.AllyMax.{RemainingDepth, safeNegate}
 import org.mpierotti.minimax.models._
 
 import scala.collection.immutable.SortedSet

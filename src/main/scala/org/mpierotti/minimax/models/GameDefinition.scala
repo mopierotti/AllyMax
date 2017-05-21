@@ -1,6 +1,6 @@
 package org.mpierotti.minimax.models
 
-import org.mpierotti.minimax.QuickFold.{IsPlayerNext, Score}
+import org.mpierotti.minimax.AllyMax.{IsPlayerNext, Score}
 
 case class GameDefinition[GameState, Move](
     heuristic: (GameState, IsPlayerNext) => Score,

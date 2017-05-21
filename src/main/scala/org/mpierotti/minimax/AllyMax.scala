@@ -11,7 +11,7 @@ import scala.collection.immutable.SortedSet
 import scala.concurrent.{ExecutionContext, Future, Promise}
 import scala.util.Success
 
-object QuickFold {
+object AllyMax {
   type RemainingDepth = Int
   type GameDepth = Int
   type Score = Int
@@ -46,7 +46,7 @@ object QuickFold {
                                                     batchingState: BatchingState,
                                                     hasBeenCompleted: Boolean)
 
-  def quickFoldSearch[GameState, Move]
+  def allyMaxSearch[GameState, Move]
                                (gameDefinition: GameDefinition[GameState, Move],
                                 explorationMemory: ExplorationMemory[GameState, Move],
                                 startingState: StartingState[GameState],
