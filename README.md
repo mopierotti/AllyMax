@@ -1,7 +1,7 @@
 # AllyMax
-A high-parallelism minimax search
+##### A high-parallelism minimax search
 
-![Logo](allymax.png)
+<img src="allymax.png" align="right" width="280">
 
 AllyMax is a parallel minimax search algorithm that is capable of efficiently choosing optimal moves in any adversarial, turn-based game that you provide a rule set and heuristic for. 
 
