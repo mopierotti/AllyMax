@@ -4,7 +4,7 @@
 
 ##### A high-parallelism minimax search
 
-AllyMax is a parallel minimax search algorithm that is capable of efficiently choosing optimal moves in any adversarial, turn-based game that you provide a rule set and heuristic for. 
+AllyMax is a parallel minimax search algorithm that is capable of efficiently choosing optimal moves in any adversarial, turn-based game (e.g Chess, Go) that you provide a rule set and heuristic for. 
 
 The defining features of AllyMax relative to other parallel minimax algorithms are:
 * Realtime alpha/beta values of all nodes are visible to all of their descendants (meaning alpha improvements are immediately leveraged by other threads, even if those threads are in distant areas of the search tree)
