@@ -18,3 +18,5 @@ AllyMax leverages a handful of concurrency primitives to accomplish this:
 * Java 8 style accumulators
 * `Future`s/`Promise`s for threading control (scala.concurrent)
 * Concurrently modifiable `Map`s with eviction (Scaffeine)
+
+UPDATE: If you are planning to use this project, contact me. There are significant changes that are yet to be published publicly.
